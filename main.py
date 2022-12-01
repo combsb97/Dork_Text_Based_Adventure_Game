@@ -2,12 +2,12 @@ from player import Player
 import world
 from collections import OrderedDict
 import random
-import tut
+import intro
 import curses
 import time
 
 
-## This function adds a list of possible actions the player_components can perform on any given tile
+# This function adds a list of possible actions the player_components can perform on any given tile
 def action_adder(action_dic, hotkey, action, name):
     action_dic[hotkey.lower()] = action
     action_dic[hotkey.upper()] = action

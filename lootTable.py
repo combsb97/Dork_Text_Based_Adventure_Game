@@ -19,4 +19,3 @@ class BarrelLoot(LootTable):
 
     def is_empty(self):
         return len(self.loot_table) > 0
-
