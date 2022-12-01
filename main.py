@@ -81,8 +81,8 @@ def battle_loop(room, player):
 
 def play():
     # title screen
-    SCREEN = curses.initscr()
-    tut.main(SCREEN)
+    screen = curses.initscr()
+    intro.main(screen)
 
     print("DORK: Escape from Terror Cave")
     world.parse_world_dsl()

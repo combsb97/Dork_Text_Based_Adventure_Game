@@ -54,5 +54,3 @@ def main(stdscr):
         time.sleep(0.2)
 
     curses.endwin()
-
-#wrapper(main)
